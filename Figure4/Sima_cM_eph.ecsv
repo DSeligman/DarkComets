@@ -1,0 +1,33 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: targetname, unit: '---', datatype: string}
+# - {name: datetime_str, unit: '---', datatype: string}
+# - {name: datetime_jd, unit: d, datatype: float64}
+# - {name: H, unit: mag, datatype: float64}
+# - {name: G, unit: '---', datatype: float64}
+# - {name: RA, unit: deg, datatype: float64}
+# - {name: DEC, unit: deg, datatype: float64}
+# - {name: V, unit: mag, datatype: float64}
+# - {name: EclLon, unit: deg, datatype: float64}
+# - {name: EclLat, unit: deg, datatype: float64}
+# - {name: r, unit: AU, datatype: float64}
+# - {name: r_rate, unit: km / s, datatype: float64}
+# - {name: delta, unit: AU, datatype: float64}
+# - {name: delta_rate, unit: km / s, datatype: float64}
+# - {name: elongFlag, unit: '---', datatype: string}
+# - {name: lunar_elong, unit: deg, datatype: float64}
+# - {name: lunar_illum, unit: '%', datatype: float64}
+# - {name: sat_alpha, unit: deg, datatype: float64}
+# - {name: sunTargetPA, unit: deg, datatype: float64}
+# - {name: velocityPA, unit: deg, datatype: float64}
+# - {name: OrbPlaneAng, unit: deg, datatype: float64}
+# - {name: GlxLon, unit: deg, datatype: float64}
+# - {name: GlxLat, unit: deg, datatype: float64}
+# - {name: SMAA_3sigma, unit: arcsec, datatype: float64}
+# - {name: SMIA_3sigma, unit: arcsec, datatype: float64}
+# - {name: Theta_3sigma, unit: deg, datatype: float64}
+# - {name: true_anom, unit: deg, datatype: float64}
+# schema: astropy-2.0
+targetname datetime_str datetime_jd H G RA DEC V EclLon EclLat r r_rate delta delta_rate elongFlag lunar_elong lunar_illum sat_alpha sunTargetPA velocityPA OrbPlaneAng GlxLon GlxLat SMAA_3sigma SMIA_3sigma Theta_3sigma true_anom
+"139359 (2001 ME1)" "2024-Mar-14 04:35:23.512" 2460383.691244352 16.53 0.15 199.68875 -0.38383 22.517 192.4313 5.6707 4.047363148686 8.1788445 3.12767921537597 -4.0416689 /L 150.1 19.8598 19.1698 276.557 297.857 -1.89559 317.473302 61.711481 0.069 0.056 66.171 165.3808
